@@ -1,0 +1,108 @@
+/**@generated
+ * WARNING  Changes you make to this file may be lost.
+ *           File is generated and may be re-generated without warning.
+ * @RPT-Core-generated Version 8.6
+ */
+/******************************************************************
+* Licensed Materials - Property of IBM
+* IBM Rational Test Workbench
+* Copyright IBM Corporation 2013. All Rights Reserved.
+* 
+* U.S. Government Users Restricted Rights - Use, duplication or 
+* disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+******************************************************************/
+/* TestScript.template - Suitable for collaborative code generation */
+package test;
+
+import com.ibm.rational.test.lt.datacorrelation.execution.proto.ProtoAdapterHandler;
+import com.ibm.rational.test.lt.datacorrelation.execution.sub.DataSub;
+import com.ibm.rational.test.lt.datacorrelation.execution.sub.IDataSub;
+import com.ibm.rational.test.lt.datacorrelation.execution.sub.ISubRule;
+import com.ibm.rational.test.lt.datacorrelation.execution.sub.SubRule;
+import com.ibm.rational.test.lt.execution.core.impl.LTTestScript;
+import com.ibm.rational.test.lt.execution.moeb.action.EndMoebStepBatchAction;
+import com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction;
+import com.ibm.rational.test.lt.execution.moeb.services.*;
+import com.ibm.rational.test.lt.kernel.action.IContainer;
+import com.ibm.rational.test.lt.kernel.action.impl.KDelay;
+import com.ibm.rational.test.lt.kernel.action.impl.KThrow;
+import com.ibm.rational.test.lt.kernel.services.*;
+import com.ibm.rational.test.lt.kernel.services.RPTEventStructure;
+
+@SuppressWarnings("all")
+public class ChartSearch_VerifyScreen_Test_A1E5EB8FED43C3AAF86DB76434653162 extends LTTestScript  {
+
+    static ProtoAdapterHandler pa = new ProtoAdapterHandler();
+    static {           
+        pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreProtoAdapter", "coreAdapter");
+pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction");
+    }
+	
+	
+	
+    
+    
+	
+	public ChartSearch_VerifyScreen_Test_A1E5EB8FED43C3AAF86DB76434653162(IContainer container, String invocationId) {
+		super(container, "ChartSearch_VerifyScreen", invocationId, "A1E5EB8FED43C3AAF86DB76434653162");
+		setArmEnabled(false);
+		stopAtYourConvenience=false;
+		
+	}
+
+    public void execute() {
+    	try {
+			
+	    		
+	
+	if (!isScheduleRun()){
+this.addEventBehavior(new RPTEventStructure(new RPTFailVPEvent(), new RPTContinueEvent("Content Verification Point failed"), 1, "Content Verification Point failed"));
+	this.addEventBehavior(new RPTEventStructure(new RPTConnectEvent(), new RPTContinueEvent("Connection failed"), 1, "Connection failed"));
+	this.addEventBehavior(new RPTEventStructure(new RPTAuthenticationEvent(), new RPTContinueEvent("Authentication failed"), 1, "Authentication failed"));
+	this.addEventBehavior(new RPTEventStructure(new RPTDataPoolEOFEvent(), new RPTStopUserEvent("End of datapool reached"), 1, "End of datapool reached"));
+	this.addEventBehavior(new RPTEventStructure(new RPTReferenceEvent(), new RPTContinueEvent("Failed to extract reference"), 1, "Failed to extract reference"));
+	this.addEventBehavior(new RPTEventStructure(new RPTSubstitutionEvent(), new RPTContinueEvent("Substitution failed"), 1, "Substitution failed"));
+	this.addEventBehavior(new RPTEventStructure(new RPTServerTimeoutEvent(), new RPTContinueEvent("Timeout"), 1, "Timeout"));
+	this.addEventBehavior(new RPTEventStructure(new RPTCustomCodeVPFailureEvent(), new RPTContinueEvent("Custom Verification Point failed"), 1, "Custom Verification Point failed"));
+	this.addEventBehavior(new RPTEventStructure(new RPTCustomCodeAlertEvent(), new RPTContinueEvent("Custom Code reported an Alert"), 0, "Custom Code reported an Alert"));
+	this.addEventBehavior(new RPTEventStructure(new RPTCustomCodeExceptionEvent(), new RPTStopUserEvent("Custom Code reported an unhandled exception"), 1, "Custom Code reported an unhandled exception"));
+	}
+	        		KDelay delay_1 = new KDelay(this, "Delay (2000 ms.)", "A1E5E09A9720C200F20EB33135653462", 2000, 1);
+		this.add(delay_1);
+		
+	this.add(applicationContext_1(this));
+			this.addFinally(new EndMoebStepBatchAction(this));
+
+	    } catch (Throwable e) {
+		     log("Test Execution: ChartSearch_VerifyScreen_Test_A1E5EB8FED43C3AAF86DB76434653162 ",e);
+	    } finally {
+	        super.execute();
+		}	    
+    }
+    
+	public void preFinish() {
+		
+		super.preFinish();
+	}
+	
+	public void stop() {
+		
+		super.stop();
+	}	
+	
+		// MoebStepBatch_Decl.template
+	public MoebStepBatchAction applicationContext_1(IContainer parent) {
+		MoebStepBatchAction stepBatch = new MoebStepBatchAction(parent,
+												  "PowerChart",
+												  "A1E5DFD19773DD60EEE2E26139626337",
+												  "{\"imagePrerequisites\":[\"UIImageView\"],\"id\":\"0\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceTestSteps\",\"steps\":[{\"uid\":\"A1E5DFE21FE85177DAFFB53361363262\",\"isWeb\":false,\"description\":\"Verify that <img data=\\\"{&quot;aspectRatioTolerance&quot;:20,&quot;annids&quot;:[&quot;A1E5DFE21FEA9B60DAFFB53361363262&quot;],&quot;threshold&quot;:80}\\\"\\/><b>Image<\\/b> matches on <b>Image view<\\/b> <img data=\\\"{&quot;aspectRatioTolerance&quot;:20,&quot;annids&quot;:[&quot;A1E5E094FFF18C70F20EB33135653462&quot;],&quot;threshold&quot;:80}\\\"\\/>identified by an image above Search bar\",\"id\":\"1\",\"to_overriden\":false,\"skipScrollingIniOSDF\":false,\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceVPUIObject\",\"application_uid\":\"835BB2BE68E6A62430C17814008427A5\",\"timeout\":0,\"retry\":false,\"object\":{\"identifier\":{\"expression\":\"getImage\",\"parameter\":{\"imageReferences\":{\"references\":[{\"base64Image\":\"iVBORw0KGgoAAAANSUhEUgAAAXcAAAAsCAIAAAARnG8pAAATGklEQVR4nO2cd3BV1RbG85+DoICCCIqCgiAqCDYULCDYIkpxFAsKIzryh21AEHQEe0HFAtgQGcOoyIgoRQlK8yESAhY0IKBgQhrpueXcltz3u+fj7ncJvPfI0yRnfHvNdrvvPrusc8P67rfWLmlfFsXrlTLddHD9F4WJfEVhfFVpfGVxfEV+fG1ZfF15PLOwfuPbZJNNf7OUVhqP1yuVueng+n1uyg\\/Fy+Pxyni8MBwvisQLQ\\/Ub3CabbPr7pTS\\/E6tHCkWDTphEoU7yOZEI+OJ3KIRi8epg2InWkuo3vk022fS3S2mhoFO\\/5ATqpqCTImHHhSEl92M9x7epUVLYCYUTf8xg0B8gqRDw+f\\/CKRiTpIlITf7KNjVVSosEA\\/VNIcfnFnzJpMqDEccRxPwPU9jU0ClYXUVeEw7VRsJK8WgkHov+VeOH\\/D5SOOCnHHWCSrGQ\\/cfw\\/5jqz2USOJJAk4MZTQrE\\/IvLNDmO2nTIVBurIfdVVZMMl\\/FX+wz1+JMplKRLhsVoiiZ\\/cZsaP8FlEnhxuLmb9jtBLrgcktGkek+heo1v80bMnSBEI\\/EXilIR9IfxbkLBv2p8B+fLgcWEDp7RC+9u88bM06IB\\/uc77DwgKHELCXCJBqsPTNT49sPNv3ylwx\\/f5o2UBysro44\\/Ho2GA9X5u3f\\/kL1x0\\/r1W7I2bN6wIfu79X8+ryopCVZXMBfjk9eEg\\/FIhNwL727zRs7rF5cJOSmMN4k1LrIcGmVCNijj1RQLOeGAX3ETf2VFaVHhvoL8ipJ95fuK\\/5LkqyiPuHGfiBujUVyGQpO\\/uE2Nn9KCKUtCh5GiZnWK8r9bQkquNEXdVK\\/xbWqkVFMb9wecyipfIBgKhfFsIqRorFaFP5+qqv3hSCxWE2cunz\\/ILJquyV\\/cpsZPaQngCIUPO4\\/6QjFfqNYATXD\\/cvUByR06qvb1HN\\/mjZQnYr6hMCgQCEf+yC3YsCn7H+s3Zm35nv8o\\/\\/m8qLis0h8IhWt8DvgSdqKxaCwejNh\\/D\\/+PeVoCFELO4eYHJnGZfyP74aZ+49s8mfv9wVhtDeUqX3UkEgtHI9SEIuFwOAozIK+oqozFain7EnTEoYY8EHASvCEYokyulirTl\\/\\/0NBKL0qs2HienvqysorS8rLS0vBzXyc1zc\\/cyb3FxSdG+YuUVFVV5+Xt5WlhcRA2zFxQUUU9NWUV5YWExvcgrq6t4WlJWWllZLa0CThCtnHBImpDrLaSP3pc2qRrypqqnHI3WJALUwVC13yfNqafMmDXxWsq+gJ82jEBfci\\/87WxeJ09zrHhSotFoRUUFhXg87vf7VcY6AwFgIhiJJCyV+urq6traWnIq9YhmPKU7eSiEfQZp5gNOAvvX\\/kKu0IVyVVUVLWkTi8VowCyUa2pqaM+w1CTwwB2KGgooE3WFerrTRiPTi0fk5eXldA+6wixqJq2QgCvSB\\/En4CTRjPGlXjhFpDwaUo96enc10wvyCuqrxjwib\\/Q\\/lJX\\/LhZlPCrxBNHwYWOpFitoQLBPGbAMT0ghY1ZL81QY4TiOsWeZq5OEGw1LbsALmJBtUyNAYToKmLpU0rCCmEjiYEmcNtTL2gVSZlJNZNSTBJOij2ogtJJKwgspLDClEgX07nxk0pKSEn0hTEdL851Y8ZpYlPGoyJixWMwJ64q4okeiHmIfsnARCokxYH00yKK+AiAZs7FqIYiogdgNH8kd14BFlAz0aEbRHJEXJ0mysHNBjKEnpqzZVWmgxBAW6an2hu9QL8hzXGShr1qiAAAndNPUammonBWviUUZj4pwAVPH8H777bft27cXFxfLMSkrK6usrMQsV69enZGRkZOT4yRJjRGNILeLEYQ72KrBHcoydQo0BkpkwIIzKktLS9VY9IQaUEaABYnYtWvX7t27ZfDMgkqU0UrYJM0FCrQXQAgLmEi+Uh1QEHlRjYFIx8UX84VInz\\/++GPu3Lkff\\/yxvhxRMHU0XqEVT4lFGY+K2MTKlSvHjh17wQUXnHHGGZdccsndd9+dlZWFpWHSWNS0adNatWr14osvKk6RGosxropxi+T7mLCOmUI1mCs1e\\/bsYfyCggIFZcgNvjgui9m6detDDz00YMCAHj169O7d+6abbsrMzKSNUM\\/EceS8SKSS3xUmYkwFWeq4SKkxIL2OcYIMSEmHFStWnHTSScOHDwcHhTIMWMcjs+IpsSjjUcEa58+ff\\/bZZzdr1uycc85JT0+nfMwxx\\/Tp02fBggUKtU6ZMqVFixZz5szRx9RQqKEDwgvFbo33YViMwIU28j4ArA4dOkyfPl1IpCAxbWhMAwBo4MCBbdq0ueyyy0aOHHnttdcef\\/zxwA20Qm6U4r5iYQImoUZqZLpOfFcvyyNFXuT9mTCQAkPGrQPLmGLdunWgzJAhQ6SVgSe9ixUPikUZjwr+yIUXXti6devJkydv2bIFS9u5c+czzzwD0FCPw4L1gjLY+XvvvUf7vLy8oqIi7FB2bhgB1p6bmwtJ4ZFZqcFo+SjowaXCHSsvL8diH3\\/8ccjRK6+8Ius1iziOS3xeeukl9IFbyVeiwRtvvHHssccOGjRIYGSIEpoUFhYqBmziJool4f2hqtwxszak6A9lCgWJFfIix8U+ulPPizOavDlGAGU6d+48YsQIXg08YkCRL2FTE\\/\\/ZrBxKLMo0vaQuuMiqsZYZM2Z07NgR1gAKiGso3HvbbbcdeeSR8+bNEyi0bdv2tddemzVrFv7L+eeff\\/31169atQrrpQtGCAANHjwYEtS9e\\/cbb7xx0aJF+tnPzs7G\\/3r44YcXL14MZuGRrV27lr4QpS5dutD+0ksvzcjI0CDGecFfa9euHdMxNZxCvOP9999nFpREPdp8++23sIy+ffv27NmTAZctWyaeReNNmzbdfvvtTHH66adffPHFU6dOBR14Co7ce++9eGHLly8fN27cKaec8sILL1D\\/+++\\/P\\/XUU9T36tULh3H8+PFgK8owBd8Mr8PgQ4cO7dat2xVXXAELMzEmK14TizJNLAdv8VAk5Y477jjhhBOgD9ovo8grKMMP++bNm3fs2EFLYOLkk0\\/u169f\\/\\/79hw8fDsq0bNkSA+bnHZt\\/5513ICZnnXUWpgs2HXfccZh3ZmYmA65Zswan47zzzsOkgRjcn\\/Xr1wMB1HTq1AkH7brrrvvoo4\\/M7hjQhPJjjz121FFHAXwffvghECDgQ7ToTv7ll1+CUF27dh09evR9993H1Ki3ZMkSXgf6c+6554IOzIU+QBssjDaCqmHDhqHbmWeeCRoCi4BmcXHxmDFjIG6oN2rUKAALT40cYNq4cSNT8LJAIYiG40YzXmT27Nny+6x4TSzKNLGEUsRJLq8AK1deeSXEgZ93s8lNwVqt4CqfMGECtoqZ\\/fTTT5grlg+JAD4WLlzIUJCRRx555McffxQEPP300wAN7IDBwRScDiAA1oCvhIcibsJTcGTmzJlm4QaSIo6AellZWenp6c2bNz\\/ttNOAjBtuuAE4+OWXX4QyJSUl8AtwZOnSpbWufPHFF6gH\\/NE3Jydn4sSJsJ64K\\/iAYBBIIccKLwx8hJigLcow76efftq+fXtIihATNQDKZs2a8YWgBprDuT744AM5Yo8++iiOG1RLgScrXhOLMp6QVJRRUPaiiy468cQT5f7UCYsq+gAYwWWwLmxMtIKc33+g5M0335QxY+p79+4Fg3CRpkyZwqNJkybRfcOGDT169IC5AA01ruTn58sFa926teIyWl3StjcFdKj8+eefYTSXX345fgoowOz4MvPnz9f6OiSIYVesWPH111+vdAW\\/DNxBB63BozM4gusEWNCYQVCASoASMqJxYG3k4CN499xzzyloTXfQh7egPeMDczC4KlfQjYnAHQiRdkhb8ZpYlGliMYsvdejMiBEjsBy8Hm14NevTMnsMj\\/onn3yyRYsW7777rpwpKjFOuMyMGTMwVKAEtwu+0KtXL4bCHwFlHnjgAR7BZTD+q6++GuzYt2+fmBFTMOARRxzx\\/PPPCxFk8Nogo7CxIkTQn61bt86ZMwfHCreuZ8+eMI5vvvkG4wdlUADIAEEgMiAR8\\/7www90x\\/sDdEClU1wBQ3v37p2XlweWwVMArK+++koLVZWVlffccw9+EK6ZnCA5jMJNPCZeB2BSkJsasJgaiI\\/dL+NNsSjTxGJ26+qjCdNAPeQFyM7BAsfdLbJo0SIqly1bxkdYTNu2bV9++WVtewF3HnzwQaAEe8YsBw8ejMHDd2i8c+dOeUNCmXXr1oEI11xzjRaJsWqZN\\/jSoUMH3Ci5PGY7H2XyHTt2bNu2DVBgIjGg3bt39+\\/fv2vXrkAMhOVMV9auXYsbBbJs3rw5NzeXAuO89dZbRx99NNDw2WefbXAFjwm3iwZojlfVqVOnzMxM4w\\/yIqAMHpY0VHCKGdFk9erVYAoepZgL745rxuuAy3Yx25tiUcZzIlKDrZ566qn84H\\/++efyhqjE1+D3H\\/TBa8AUx48fDylQhFjr00888QTsBgqAa9O5c2d+3gUHmN+0adPwhqZOnYqhAgoA0KBBg2Al8mW0vQUPpXnz5vhNqZtftBRdWFg4dOhQoAGY0Ioyvfbs2UMN\\/GXLli2QrAEDBoA4QIxOOYECa9asWbp0KbqNGjUK\\/FLIBryACgErffr0AafQbfTo0QCHFqREoCBxACjAwUtpyw+vxviALESMvkOGDEFh8JHGfFfwJkDTchlvikWZJhazOe3g446TJk3CMsGaO++88\\/XXX4eVCGLGjRsn2wMywBQeCRHkMWGcM2fOxMKxYUCKQZYvXz5x4kQ+QnMmTJhAM4y\\/S5cuV111lfbsyh3DXN9++22QiFlwnaAbZn+dgkHTp09v06YN\\/hdgxJjz5s0Dp6gBQeSvQVhQuF+\\/fhkZGUAG\\/hrqjRkzhvEnT57MyMOGDQMB586d27dvXxSA+OTn54MyI0eOpCMek0gZ8wJquFft2rW76667QByojVwzIOz7778HIqFF2i4I3sFuunfvjgNo4zLeFIsyHhWMBy8Ja4etHOcKHgSsAU8qLy9PO9Yw3VatWr366qt8VBccIsx+9uzZ2Ly2DmO9LVu2hCw8++yz7du3v\\/\\/++7WSDQBBB7SEpAUmKAbc5JZbbsGG6TJr1iztlNE+HfLi4mLwpVu3bgCZQr8dO3YcO3YsnpSJ4wBw0BmYBWrAOJgXZ42n+E233norHQEOwIVmAwcOZKiCggL41M0334yeAJPOhTIUOfwI9gS4AE\\/0wgH85JNPGGrlypXMC8rI2URJqBnd09PTm\\/qPZuXQYlHGo6LNuBgbP93gBSwD14my9uwpSAEMYYp79+7VNnzH3QFMG8ACc9UuFXyrX3\\/9FWOGtmRnZ+\\/atYth1ZGPNCstLRWNUpyVj9u2bcNuaaMDkGI08k0YE7xYuHAhtGXBggUMYo47Ockj18AKLszixYu3b98Oigmq6As9ycrK4hFa0RJWsnHjRjlfOTk5OIM6\\/C0HDZ7CmKjNdEuWLFm1ahXdtT0HDXG4eE1z9Bz4++6773AS7VEmb4pFGY8K5oeJyj61siMjp6zDAeYEo1a4deZI6806+qy+weT9UuIjjosXZr3GcU9jUy\\/XSaexqTemzlNBmG5+0LltrXNr844591jtiq6q0PKz\\/DidGxBU6bCCNFQImXfUrQ56pBF4ZC6v0luLcOlolTmtLs31del1zEcrnhKLMh4VHfBRTDecvCZOdyzozjohgtlBI3xxkoZqLFz3Syluoo+iDzJRHWXSaSYBk2lgCowjRmOOWWrtSehDL3NmWlrprgmBgsKxYihCMR1EUHuBZup5SF3Kh6RecCP65rgxLKGbk7zkQa8vBETsXXneFIsyHhWdRZIZy\\/x0DYICJToVqd92bTChme7TlG0rhqqhBCjyXEQ6RB\\/MyUlhjXE3tCVHW5CViyOYe\\/Mcl2UY4kN7c6efkyQs2uGirX26y0q44yShwVyCg28oKBTlUXtzLVYweeFW6i05gqRw8oI+janYUOP\\/paz8V7Eo41GR3crAZFc6smjsU7k+muVeUQzz1BwUoAHGnEqOdJewWUUyN+CZYQVwsnMwRWveEk0h7mN8MfllqhQqGXKkrTeCDw2oF5GXp0HMfYB6apiOuXZPjMzcVuO4NMd4dlLDnsn2pliU8agoHmHYgc4QKHqipWWhj+5GkB2qC200guKyYhwiEcIOsQ8ZpKBBm9lk5DJ7J+WeYFVqKNmzwr2GvGgRSm4ONbpcSjavsJEwQjoo6CPdxJVoQxcRMefAPdBAm06KKsakWIxz4K2gGkpLcmF7768nxaKMR0WAIhdJTo2gQaZlrptTY+GRCeUo1GKcCycZ5dGxQ2GBcUmEIKbGLF1rXo0mmHBcQCFXEEeXSDjJm3elmInyCpLEVgR\\/Whoz9MdJbhFSsMaEkNRdahguZnwlTcGXIw2lm8LkUruJ\\/lxW\\/pNYlLFixUrDikUZK1asNKxYlLFixUrDikUZK1asNKxYlLFixUrDikUZK1asNKxYlLFixUrDikUZK1asNKykVVuxYsVKQ8o\\/ATCXd5UUGfl4AAAAAElFTkSuQmCC\",\"id\":\"6\",\"annotationId\":\"A1E5E094FFF18C70F20EB33135653462\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceImageReference\"}],\"aspectRatioTolerance\":20,\"threshold\":80,\"id\":\"5\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceImageReferences\"},\"name\":\"image\",\"id\":\"4\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TImage\"},\"name\":\"image\",\"expType\":\"getter\",\"id\":\"3\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceId\",\"operator\":\"TEquals\"},\"id\":\"2\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceUIObject\",\"type\":\"UIImageView\",\"locator\":{\"parameter\":{\"name\":\"objectId\",\"id\":\"8\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TUIObject\",\"object\":{\"id\":\"9\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceUIObject\",\"type\":\"UISearchBar\"}},\"id\":\"7\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceLocator\",\"type\":\"LAbove\"}},\"vpExpression\":{\"expression\":\"getImage\",\"parameter\":{\"imageReferences\":{\"references\":[{\"base64Image\":\"iVBORw0KGgoAAAANSUhEUgAAAXcAAAAsCAIAAAARnG8pAAATGklEQVR4nO2cd3BV1RbG85+DoICCCIqCgiAqCDYULCDYIkpxFAsKIzryh21AEHQEe0HFAtgQGcOoyIgoRQlK8yESAhY0IKBgQhrpueXcltz3u+fj7ncJvPfI0yRnfHvNdrvvPrusc8P67rfWLmlfFsXrlTLddHD9F4WJfEVhfFVpfGVxfEV+fG1ZfF15PLOwfuPbZJNNf7OUVhqP1yuVueng+n1uyg\\/Fy+Pxyni8MBwvisQLQ\\/Ub3CabbPr7pTS\\/E6tHCkWDTphEoU7yOZEI+OJ3KIRi8epg2InWkuo3vk022fS3S2mhoFO\\/5ATqpqCTImHHhSEl92M9x7epUVLYCYUTf8xg0B8gqRDw+f\\/CKRiTpIlITf7KNjVVSosEA\\/VNIcfnFnzJpMqDEccRxPwPU9jU0ClYXUVeEw7VRsJK8WgkHov+VeOH\\/D5SOOCnHHWCSrGQ\\/cfw\\/5jqz2USOJJAk4MZTQrE\\/IvLNDmO2nTIVBurIfdVVZMMl\\/FX+wz1+JMplKRLhsVoiiZ\\/cZsaP8FlEnhxuLmb9jtBLrgcktGkek+heo1v80bMnSBEI\\/EXilIR9IfxbkLBv2p8B+fLgcWEDp7RC+9u88bM06IB\\/uc77DwgKHELCXCJBqsPTNT49sPNv3ylwx\\/f5o2UBysro44\\/Ho2GA9X5u3f\\/kL1x0\\/r1W7I2bN6wIfu79X8+ryopCVZXMBfjk9eEg\\/FIhNwL727zRs7rF5cJOSmMN4k1LrIcGmVCNijj1RQLOeGAX3ETf2VFaVHhvoL8ipJ95fuK\\/5LkqyiPuHGfiBujUVyGQpO\\/uE2Nn9KCKUtCh5GiZnWK8r9bQkquNEXdVK\\/xbWqkVFMb9wecyipfIBgKhfFsIqRorFaFP5+qqv3hSCxWE2cunz\\/ILJquyV\\/cpsZPaQngCIUPO4\\/6QjFfqNYATXD\\/cvUByR06qvb1HN\\/mjZQnYr6hMCgQCEf+yC3YsCn7H+s3Zm35nv8o\\/\\/m8qLis0h8IhWt8DvgSdqKxaCwejNh\\/D\\/+PeVoCFELO4eYHJnGZfyP74aZ+49s8mfv9wVhtDeUqX3UkEgtHI9SEIuFwOAozIK+oqozFain7EnTEoYY8EHASvCEYokyulirTl\\/\\/0NBKL0qs2HienvqysorS8rLS0vBzXyc1zc\\/cyb3FxSdG+YuUVFVV5+Xt5WlhcRA2zFxQUUU9NWUV5YWExvcgrq6t4WlJWWllZLa0CThCtnHBImpDrLaSP3pc2qRrypqqnHI3WJALUwVC13yfNqafMmDXxWsq+gJ82jEBfci\\/87WxeJ09zrHhSotFoRUUFhXg87vf7VcY6AwFgIhiJJCyV+urq6traWnIq9YhmPKU7eSiEfQZp5gNOAvvX\\/kKu0IVyVVUVLWkTi8VowCyUa2pqaM+w1CTwwB2KGgooE3WFerrTRiPTi0fk5eXldA+6wixqJq2QgCvSB\\/En4CTRjPGlXjhFpDwaUo96enc10wvyCuqrxjwib\\/Q\\/lJX\\/LhZlPCrxBNHwYWOpFitoQLBPGbAMT0ghY1ZL81QY4TiOsWeZq5OEGw1LbsALmJBtUyNAYToKmLpU0rCCmEjiYEmcNtTL2gVSZlJNZNSTBJOij2ogtJJKwgspLDClEgX07nxk0pKSEn0hTEdL851Y8ZpYlPGoyJixWMwJ64q4okeiHmIfsnARCokxYH00yKK+AiAZs7FqIYiogdgNH8kd14BFlAz0aEbRHJEXJ0mysHNBjKEnpqzZVWmgxBAW6an2hu9QL8hzXGShr1qiAAAndNPUammonBWviUUZj4pwAVPH8H777bft27cXFxfLMSkrK6usrMQsV69enZGRkZOT4yRJjRGNILeLEYQ72KrBHcoydQo0BkpkwIIzKktLS9VY9IQaUEaABYnYtWvX7t27ZfDMgkqU0UrYJM0FCrQXQAgLmEi+Uh1QEHlRjYFIx8UX84VInz\\/++GPu3Lkff\\/yxvhxRMHU0XqEVT4lFGY+K2MTKlSvHjh17wQUXnHHGGZdccsndd9+dlZWFpWHSWNS0adNatWr14osvKk6RGosxropxi+T7mLCOmUI1mCs1e\\/bsYfyCggIFZcgNvjgui9m6detDDz00YMCAHj169O7d+6abbsrMzKSNUM\\/EceS8SKSS3xUmYkwFWeq4SKkxIL2OcYIMSEmHFStWnHTSScOHDwcHhTIMWMcjs+IpsSjjUcEa58+ff\\/bZZzdr1uycc85JT0+nfMwxx\\/Tp02fBggUKtU6ZMqVFixZz5szRx9RQqKEDwgvFbo33YViMwIU28j4ArA4dOkyfPl1IpCAxbWhMAwBo4MCBbdq0ueyyy0aOHHnttdcef\\/zxwA20Qm6U4r5iYQImoUZqZLpOfFcvyyNFXuT9mTCQAkPGrQPLmGLdunWgzJAhQ6SVgSe9ixUPikUZjwr+yIUXXti6devJkydv2bIFS9u5c+czzzwD0FCPw4L1gjLY+XvvvUf7vLy8oqIi7FB2bhgB1p6bmwtJ4ZFZqcFo+SjowaXCHSsvL8diH3\\/8ccjRK6+8Ius1iziOS3xeeukl9IFbyVeiwRtvvHHssccOGjRIYGSIEpoUFhYqBmziJool4f2hqtwxszak6A9lCgWJFfIix8U+ulPPizOavDlGAGU6d+48YsQIXg08YkCRL2FTE\\/\\/ZrBxKLMo0vaQuuMiqsZYZM2Z07NgR1gAKiGso3HvbbbcdeeSR8+bNEyi0bdv2tddemzVrFv7L+eeff\\/31169atQrrpQtGCAANHjwYEtS9e\\/cbb7xx0aJF+tnPzs7G\\/3r44YcXL14MZuGRrV27lr4QpS5dutD+0ksvzcjI0CDGecFfa9euHdMxNZxCvOP9999nFpREPdp8++23sIy+ffv27NmTAZctWyaeReNNmzbdfvvtTHH66adffPHFU6dOBR14Co7ce++9eGHLly8fN27cKaec8sILL1D\\/+++\\/P\\/XUU9T36tULh3H8+PFgK8owBd8Mr8PgQ4cO7dat2xVXXAELMzEmK14TizJNLAdv8VAk5Y477jjhhBOgD9ovo8grKMMP++bNm3fs2EFLYOLkk0\\/u169f\\/\\/79hw8fDsq0bNkSA+bnHZt\\/5513ICZnnXUWpgs2HXfccZh3ZmYmA65Zswan47zzzsOkgRjcn\\/Xr1wMB1HTq1AkH7brrrvvoo4\\/M7hjQhPJjjz121FFHAXwffvghECDgQ7ToTv7ll1+CUF27dh09evR9993H1Ki3ZMkSXgf6c+6554IOzIU+QBssjDaCqmHDhqHbmWeeCRoCi4BmcXHxmDFjIG6oN2rUKAALT40cYNq4cSNT8LJAIYiG40YzXmT27Nny+6x4TSzKNLGEUsRJLq8AK1deeSXEgZ93s8lNwVqt4CqfMGECtoqZ\\/fTTT5grlg+JAD4WLlzIUJCRRx555McffxQEPP300wAN7IDBwRScDiAA1oCvhIcibsJTcGTmzJlm4QaSIo6AellZWenp6c2bNz\\/ttNOAjBtuuAE4+OWXX4QyJSUl8AtwZOnSpbWufPHFF6gH\\/NE3Jydn4sSJsJ64K\\/iAYBBIIccKLwx8hJigLcow76efftq+fXtIihATNQDKZs2a8YWgBprDuT744AM5Yo8++iiOG1RLgScrXhOLMp6QVJRRUPaiiy468cQT5f7UCYsq+gAYwWWwLmxMtIKc33+g5M0335QxY+p79+4Fg3CRpkyZwqNJkybRfcOGDT169IC5AA01ruTn58sFa926teIyWl3StjcFdKj8+eefYTSXX345fgoowOz4MvPnz9f6OiSIYVesWPH111+vdAW\\/DNxBB63BozM4gusEWNCYQVCASoASMqJxYG3k4CN499xzzyloTXfQh7egPeMDczC4KlfQjYnAHQiRdkhb8ZpYlGliMYsvdejMiBEjsBy8Hm14NevTMnsMj\\/onn3yyRYsW7777rpwpKjFOuMyMGTMwVKAEtwu+0KtXL4bCHwFlHnjgAR7BZTD+q6++GuzYt2+fmBFTMOARRxzx\\/PPPCxFk8Nogo7CxIkTQn61bt86ZMwfHCreuZ8+eMI5vvvkG4wdlUADIAEEgMiAR8\\/7www90x\\/sDdEClU1wBQ3v37p2XlweWwVMArK+++koLVZWVlffccw9+EK6ZnCA5jMJNPCZeB2BSkJsasJgaiI\\/dL+NNsSjTxGJ26+qjCdNAPeQFyM7BAsfdLbJo0SIqly1bxkdYTNu2bV9++WVtewF3HnzwQaAEe8YsBw8ejMHDd2i8c+dOeUNCmXXr1oEI11xzjRaJsWqZN\\/jSoUMH3Ci5PGY7H2XyHTt2bNu2DVBgIjGg3bt39+\\/fv2vXrkAMhOVMV9auXYsbBbJs3rw5NzeXAuO89dZbRx99NNDw2WefbXAFjwm3iwZojlfVqVOnzMxM4w\\/yIqAMHpY0VHCKGdFk9erVYAoepZgL745rxuuAy3Yx25tiUcZzIlKDrZ566qn84H\\/++efyhqjE1+D3H\\/TBa8AUx48fDylQhFjr00888QTsBgqAa9O5c2d+3gUHmN+0adPwhqZOnYqhAgoA0KBBg2Al8mW0vQUPpXnz5vhNqZtftBRdWFg4dOhQoAGY0Ioyvfbs2UMN\\/GXLli2QrAEDBoA4QIxOOYECa9asWbp0KbqNGjUK\\/FLIBryACgErffr0AafQbfTo0QCHFqREoCBxACjAwUtpyw+vxviALESMvkOGDEFh8JHGfFfwJkDTchlvikWZJhazOe3g446TJk3CMsGaO++88\\/XXX4eVCGLGjRsn2wMywBQeCRHkMWGcM2fOxMKxYUCKQZYvXz5x4kQ+QnMmTJhAM4y\\/S5cuV111lfbsyh3DXN9++22QiFlwnaAbZn+dgkHTp09v06YN\\/hdgxJjz5s0Dp6gBQeSvQVhQuF+\\/fhkZGUAG\\/hrqjRkzhvEnT57MyMOGDQMB586d27dvXxSA+OTn54MyI0eOpCMek0gZ8wJquFft2rW76667QByojVwzIOz7778HIqFF2i4I3sFuunfvjgNo4zLeFIsyHhWMBy8Ja4etHOcKHgSsAU8qLy9PO9Yw3VatWr366qt8VBccIsx+9uzZ2Ly2DmO9LVu2hCw8++yz7du3v\\/\\/++7WSDQBBB7SEpAUmKAbc5JZbbsGG6TJr1iztlNE+HfLi4mLwpVu3bgCZQr8dO3YcO3YsnpSJ4wBw0BmYBWrAOJgXZ42n+E233norHQEOwIVmAwcOZKiCggL41M0334yeAJPOhTIUOfwI9gS4AE\\/0wgH85JNPGGrlypXMC8rI2URJqBnd09PTm\\/qPZuXQYlHGo6LNuBgbP93gBSwD14my9uwpSAEMYYp79+7VNnzH3QFMG8ACc9UuFXyrX3\\/9FWOGtmRnZ+\\/atYth1ZGPNCstLRWNUpyVj9u2bcNuaaMDkGI08k0YE7xYuHAhtGXBggUMYo47Ockj18AKLszixYu3b98Oigmq6As9ycrK4hFa0RJWsnHjRjlfOTk5OIM6\\/C0HDZ7CmKjNdEuWLFm1ahXdtT0HDXG4eE1z9Bz4++6773AS7VEmb4pFGY8K5oeJyj61siMjp6zDAeYEo1a4deZI6806+qy+weT9UuIjjosXZr3GcU9jUy\\/XSaexqTemzlNBmG5+0LltrXNr844591jtiq6q0PKz\\/DidGxBU6bCCNFQImXfUrQ56pBF4ZC6v0luLcOlolTmtLs31del1zEcrnhKLMh4VHfBRTDecvCZOdyzozjohgtlBI3xxkoZqLFz3Syluoo+iDzJRHWXSaSYBk2lgCowjRmOOWWrtSehDL3NmWlrprgmBgsKxYihCMR1EUHuBZup5SF3Kh6RecCP65rgxLKGbk7zkQa8vBETsXXneFIsyHhWdRZIZy\\/x0DYICJToVqd92bTChme7TlG0rhqqhBCjyXEQ6RB\\/MyUlhjXE3tCVHW5CViyOYe\\/Mcl2UY4kN7c6efkyQs2uGirX26y0q44yShwVyCg28oKBTlUXtzLVYweeFW6i05gqRw8oI+janYUOP\\/paz8V7Eo41GR3crAZFc6smjsU7k+muVeUQzz1BwUoAHGnEqOdJewWUUyN+CZYQVwsnMwRWveEk0h7mN8MfllqhQqGXKkrTeCDw2oF5GXp0HMfYB6apiOuXZPjMzcVuO4NMd4dlLDnsn2pliU8agoHmHYgc4QKHqipWWhj+5GkB2qC200guKyYhwiEcIOsQ8ZpKBBm9lk5DJ7J+WeYFVqKNmzwr2GvGgRSm4ONbpcSjavsJEwQjoo6CPdxJVoQxcRMefAPdBAm06KKsakWIxz4K2gGkpLcmF7768nxaKMR0WAIhdJTo2gQaZlrptTY+GRCeUo1GKcCycZ5dGxQ2GBcUmEIKbGLF1rXo0mmHBcQCFXEEeXSDjJm3elmInyCpLEVgR\\/Whoz9MdJbhFSsMaEkNRdahguZnwlTcGXIw2lm8LkUruJ\\/lxW\\/pNYlLFixUrDikUZK1asNKxYlLFixUrDikUZK1asNKxYlLFixUrDikUZK1asNKxYlLFixUrDikUZK1asNKykVVuxYsVKQ8o\\/ATCXd5UUGfl4AAAAAElFTkSuQmCC\",\"id\":\"13\",\"annotationId\":\"A1E5DFE21FEA9B60DAFFB53361363262\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceImageReference\"}],\"aspectRatioTolerance\":100,\"threshold\":80,\"id\":\"12\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceImageReferences\"},\"name\":\"image\",\"id\":\"11\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TImage\"},\"name\":\"image\",\"expType\":\"getter\",\"id\":\"10\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceSimpleExpression\",\"translatedName\":\"Image\",\"operator\":\"TEquals\"}}],\"timeout\":10}",
+												  null,
+												  null,
+												  "<default>");
+
+
+
+		return stepBatch;
+	}
+
+}

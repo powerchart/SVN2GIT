@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+   <variable_init name="Var_Username_A" value="Timilsina,Manisha"/> 
+ <variable_init name="Var_Domain_A" value="stgeng.temp_rho.cernerasp.com"/>
+ <variable_init name="Var_Password_A" value="mt031831"/>
+  <variable_init name="Var_Location_A" value="Baseline East"/>
+  <variable_init name="Var_Patient_A" value="Coil, Phillip"/>
+  <variable_init name="Var_Visit_Type_A" value="Same Day"/>
+  <variable_init name="Var_Time_A" value="8:00 AM"/>
+  <variable_init name="Var_Schedule_Status" value="Confirmed"/>
+  <variable_init name="Var_Time_B" value="8:30 AM"/>
+  <variable_init name="Var_Visit_Type_B" value="Breast Biopsy (2)"/>
+  <variable_init name="Var_Patient_B" value="Bhatia, Neha"/>
+  <variable_init name="Var_Location" value="Main OR - OR 01"/>
+  <variable_init name="Var_Scedule_Type_A" value="Clinic"/>
+  <variable_init name="Var_Schedule_Type_B" value="Surgery"/>
+  <variable_init name="Var_User_B" value="Davis"/>
+  <variable_init name="Var_Location_B" value="Baseline West"/>
+  <variable_init name="Var_Patient_C" value="Tim, Modi"/>
+  <variable_init name="Var_Vist_List_Day" value="Breast Biopsy"/>
+  <variable_init name="Var_Current_Month_Date_Year" value="September 18, 2016"/>
+  <variable_init name="Var_Date_for_Above_Date_WeekView" value="25"/>
+  <variable_init name="Var_Date_WeekView" value="18"/>
+  <variable_init name="Var_Day" value="FRIDAY"/>
+  <variable_init name="Var_Password" value="mt031831"/>
+  <variable_init name="Var_Month_WeekView" value="September 2015"/>
+  <variable_init name="Var_Primary_Procedure1" value="Breast Biopsy (Left, Caudal)"/>
+  <variable_init name="Var_User_A" value="Timilsina, Manisha"/>
+  <variable_init name="Var_Primary_Procedure2" value="Amputation Above Knee (Anterior)"/>
+  <variable_init name="Var_Anesthesia_Type" value="General Mask"/>
+  <variable_init name="Var_Anesthesiologist" value="Naik, Girish"/>
+  <variable_init name="Var_Patient_Type" value="Outpatient"/>
+  <variable_init name="Primary_Surgeon_Name" value="Timilsina, Manisha"/>
+    <variable_init name="Var_PatientA" value="Coil, Phillip"/> 
+      <variable_init name="Var_Week" value="September 13 — September 19"/>
+</inits>

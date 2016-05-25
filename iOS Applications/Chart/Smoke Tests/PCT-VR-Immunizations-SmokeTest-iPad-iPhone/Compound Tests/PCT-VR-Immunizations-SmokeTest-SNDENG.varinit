@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Var_Vaccine1" value="Hepatitis B"/>
+  <variable_init name="Var_Vaccine2" value="Hepatitis A"/>
+  <variable_init name="Var_Vaccine3" value="RV"/>
+  <variable_init name="Var_Vaccine4" value="DTaP"/>
+  <variable_init name="Var_Vaccine5" value="Hib"/>
+  <variable_init name="Var_Vaccine6" value="Polio"/>
+  <variable_init name="Var_Vaccine7" value="MMR"/>
+  <variable_init name="Var_Vaccine8" value="Varicella"/>
+  <variable_init name="Var_Vaccine9" value="Rabies"/>
+  <variable_init name="Var_Vaccine10" value="Typhoid"/>
+  <variable_init name="Var_DateOfAdmin" value="5/15/12 - 2y"/>
+  <variable_init name="Var_Username_A" value="Milki,Russ"/>
+  <variable_init name="Var_Domain_A" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Password_A" value="a"/>
+  <variable_init name="Var_ImmunDetailsDate1" value="5/15/12"/>
+  <variable_init name="Var_ImmunDetailsDate2" value="7/13/11"/>
+  <variable_init name="Var_ImmunDetailsDate3" value="5/15/11"/>
+  <variable_init name="Var_ImmunDetailsAge1" value="2y"/>
+  <variable_init name="Var_ImmunDetailsAge2" value="1y/2m"/>
+  <variable_init name="Var_ImmunDetailsAge3" value="1y"/>
+  <variable_init name="Var_ImmunDetailsProduct1" value="injoi"/>
+  <variable_init name="Var_ImmunDetailsProduct2" value="injoi"/>
+  <variable_init name="Var_ImmunDetailsProduct3" value="injoi"/>
+  <variable_init name="Var_ImmunDetailsPopoverDate1" value="5/15/12"/>
+  <variable_init name="Var_ImmunDetailsPopoverAge1" value="2y"/>
+  <variable_init name="Var_ImmunDetailsPopoverProduct1" value="injoi"/>
+  <variable_init name="Var_ImmunDetailsPopoverSite1" value="Left Arm"/>
+  <variable_init name="Var_ImmunDetailsPopoverDose/Route1" value="1 mL, ID"/>
+  <variable_init name="Var_ImmunDetailsPopoverAdminBy1" value="PCTAUT, ChartPhy1"/>
+  <variable_init name="Var_ImmunDetailsPopoverManufacBy1" value="Centocor Inc"/>
+  <variable_init name="Var_ImmunDetailsPopoverLotNum1" value="1"/>
+  <variable_init name="Var_ImmunDetailsPopoverExpDate1" value="~5/13/14"/>
+  <variable_init name="Var_ImmunDetailsPopoverComment1" value="No comments to display"/>
+  <variable_init name="Var_Encounter_Fin_A" value="20003211"/>
+  <variable_init name="Var_Encounter_FIN_A" value="20003211"/>
+  <variable_init name="Var_Patient_MRN_A" value="10002553"/>
+  <variable_init name="Var_Encounter_Location_A" value="Baseline East"/>
+  <variable_init name="Var_PatientFullName_A" value="pctaut, immun3"/>
+   <variable_init name="Var_Patient_FullName_A" value="PCTAUT, immun2"/>
+  <variable_init name="Var_Mrn2" value="10001515"/>
+  <variable_init name="Var_Fin2" value="20001929"/>
+</inits>

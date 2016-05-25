@@ -1,0 +1,8 @@
+StickyFolders///Compound\ Tests=com.ibm.rational.test.lt.scenario
+StickyFolders///Data-Set=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///Datapools=com.ibm.rational.test.lt.datapool
+StickyFolders///Results=com.ibm.rational.test.lt.testresult
+StickyFolders///Script\ Specific\ Functions\ -\ iPAD=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///Script\ Specific\ Functions\ -\ iPHONE=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///Tests=com.ibm.rational.test.lt.test
+eclipse.preferences.version=1

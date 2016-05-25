@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="lib" path="/Users/rv042687/IBM/rationalsdp/rv_rtw_8.7.1.1/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="/Users/rv042687/IBM/rationalsdp/rv_rtw_8.7.1.1/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="/Users/rv042687/IBM/rationalsdp/rv_rtw_8.7.1.1/zippedExtLibs/linux_chromedriver.zip"/>
+	<classpathentry kind="lib" path="/Users/rv042687/IBM/rationalsdp/rv_rtw_8.7.1.1/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="/Applications/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.500.v20160219_1509/libraries/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.500.v20160219_1509/libraries/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/Applications/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.500.v20160219_1509/libraries/httpmime-4.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

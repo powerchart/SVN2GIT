@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+
+ 
+  <!-- User A Login Details  Step 1 -->
+  <variable_init name="Var_Username_A" value="Kiran,Ravi"/>
+  <variable_init name="Var_Domain_A" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Password_A" value="rh028133"/>
+  
+  <!-- Patient - A Details Step 1 -->
+  <variable_init name="Var_Encounter_Fin_A" value="20000653"/>
+  <variable_init name="Var_Patient_MRN_A" value="10000394"/>
+  <variable_init name="Var_Encounter_Location_A" value="BW Nuclear Med"/>
+  <variable_init name="Var_PatientFullName_A" value="Newman, Norman"/>
+  <variable_init name="Var_relationShipType_A" value="Admitting Physician"/>
+  
+  <!-- Tobacco Details   Step 3  -->
+  <variable_init name="Var_New_Tobacco_USE_A" value="Former smoker"/>
+  
+  <!-- Tobacco Step 4 -->
+  <variable_init name="var_any_SocilaHistories_A" value="Tobacco"/>
+  
+  <!-- Tobacco Step 5 -->
+  <variable_init name="Var_SocialHistories_ReviewScreen_A" value="Tobacco"/>
+  
+  <!-- Patient - B Details  Step 8 -->
+  <variable_init name="Var_Encounter_Fin_B" value="20003019"/>
+  <variable_init name="Var_Encounter_Location_B" value="Laboratory"/>
+  <variable_init name="Var_Patient_MRN_B" value="348348348"/>
+  <variable_init name="Var_PatientFullName_B" value="PETERS, TIMOTHY &quot;TIM&quot;"/>
+  <variable_init name="Var_relationShipType_B" value="Admitting Physician"/>
+  
+  <!-- Verify  any 2 Histories  Step 8  -->
+  <variable_init name="var_any_SocilaHistories_B" value="Alcohol"/>
+  <variable_init name="var_any_SocilaHistories_C" value="Exercise"/>
+  
+  <!-- other histories Except Tobacco Step 9 -->
+  <variable_init name="Var_SocialHistories_ReviewScreen_B" value="Exercise"/>
+  
+  <!-- Any Family Histories Step 11 -->
+  <variable_init name="Var_FamilyHistories_SplitScreen_A" value="Mother - (46 years)"/>
+  
+  <!-- Any Procedure Histories Step 13 -->
+  <variable_init name="Var_Procedure_Review_A" value="Biopsy"/>
+  
+  <!-- Click on Tobacco Step 14 -->
+  <variable_init name="Var_SocialHistories_ReviewScreen_C" value="Tobacco"/>
+</inits>

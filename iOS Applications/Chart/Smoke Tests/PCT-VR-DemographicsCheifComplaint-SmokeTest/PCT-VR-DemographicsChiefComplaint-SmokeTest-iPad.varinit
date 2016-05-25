@@ -1,0 +1,49 @@
+7<?xml version="1.1" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+
+  <variable_init name="Var_Username_A" value="Kiran,Ravi"/>
+  <variable_init name="Var_Domain_A" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Password_A" value="rh028133"/>
+  <variable_init name="Var_SelectSpecialty" value="Other"/>
+  <variable_init name="Var_Encounter_Location_A" value="0125"/>
+  <variable_init name="Var_relationShipType_A" value=""/>
+  <variable_init name="Var_overRideReason_A" value=""/>
+  <variable_init name="Var_relationShipTypeJustification_A" value=""/>
+  <variable_init name="Var_overrideReasonJustification_A" value=""/>
+  <variable_init name="Var_Patient_MRN_A" value="10002529"/>
+  <variable_init name="Var_Encounter_FIN_A" value="30003187"/>
+  <variable_init name="Var_Patient_FullName_A" value="RTW, Works"/> 
+  <variable_init name="Var_Age_value" value="24 years"/>
+  <variable_init name="Var_Gender_value" value="Male"/>
+  <variable_init name="Var_DOB_value" value="3/17/92"/>
+  <variable_init name="Var_MRN_Value" value="10002529"/>
+  <variable_init name="Var_SSN_value" value="XXX-XX-4412"/>
+  <variable_init name="Var_Militaryid_value" value="262626"/>
+  <variable_init name="Var_Statehealth_number_value" value="868669595"/>
+  <variable_init name="Var_Language_value" value="English"/>
+  <variable_init name="Var_Race_value" value="Asian"/>
+  <variable_init name="Var_Nationality_value" value="Indian"/>
+  <variable_init name="Var_Ethnicity_value" value="Not Hispanic or Latino"/>
+  <variable_init name="Var_Marital Status_value" value="Single"/>
+  <variable_init name="Var_Religion_value" value="Hindu"/>
+  <variable_init name="Var_Password" value="rh028133"/>
+  <variable_init name="Var_Guardians_value" value="Cousin"/>
+  <variable_init name="Var_Guardians_value_name" value="NH, NH"/>
+  <variable_init name="Var_Guardians_Relationship_value" value="Cousin"/>
+  <variable_init name="Var_parents_value" value="Father"/>
+  <variable_init name="Var_parents_value_name" value="Himanshu, Singh"/>
+  <variable_init name="Var_Parents_Relationship_value" value="Father"/>
+  <variable_init name="Var_Guarantors_name" value="NH, NH"/>
+  <variable_init name="Var_Pharmacy_name_value" value="CVS Pharmacy # 710"/>
+  <variable_init name="Var_Pharmacy_fax_value" value="8503850584"/>
+  <variable_init name="Var_Pediatrician_value" value="Kiran, Ravi"/>
+  <variable_init name="Var_Family Physician_value" value="Akkinepally, Siri"/>
+  <variable_init name="Var_Primary Care Physician_value" value="Timilsina, Manisha"/>
+  <variable_init name="Var_Chiefcomplaint_value" value="Chest Pain"/>
+  <variable_init name="Var_ReasonForVisit_Value" value="Test"/>
+  <variable_init name="Var_EncounterStatus_Value" value="Active"/>
+  <variable_init name="Var_Type_Value" value="Outpatient"/>
+  <variable_init name="Var_FIN_Value" value="30003187"/>
+  <variable_init name="Var_RegistrationDate_Value" value="3/2/16, 11:54 PM"/>
+  <variable_init name="Var_AttendingPhysician_Value" value="Timilsina, Manisha"/>
+  <variable_init name="Var_Location_Value" value="1S 0125"/>
+</inits>

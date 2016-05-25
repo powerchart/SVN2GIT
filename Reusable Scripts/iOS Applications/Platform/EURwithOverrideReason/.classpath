@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/bk032114/IBM/rationalsdp/workspace/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/bk032114/IBM/rationalsdp/workspace/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="C:/Users/bk032114/IBM/rationalsdp/workspace/zippedExtLibs/linux_chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/bk032114/IBM/rationalsdp/workspace/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

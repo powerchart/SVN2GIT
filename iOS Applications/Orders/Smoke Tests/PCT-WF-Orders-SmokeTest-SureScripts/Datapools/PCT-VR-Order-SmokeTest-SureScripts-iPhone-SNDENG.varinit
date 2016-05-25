@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Var_Domain" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Username" value="PCTAUT,OrdersOrdersOrdersOrdersPhy2"/>
+  <variable_init name="Var_Order1" value="(Coumadin"/>
+  <variable_init name="Var_MRN" value="10001316"/>
+  <variable_init name="Var_FIN" value="20002299"/>
+  <variable_init name="Var_OrderSummaryPharmacyName" value="CVS#08609/Osco Drug #5197"/>
+  <variable_init name="Var_OrderSummaryPharmacyAddress" value="7003 Bannister Road"/>
+  <variable_init name="Var_Password" value="cerner"/>
+  <variable_init name="Var_PharmacySearchResultsSelectOne" value="CVS#08609/Osco Drug #5197"/>
+</inits>

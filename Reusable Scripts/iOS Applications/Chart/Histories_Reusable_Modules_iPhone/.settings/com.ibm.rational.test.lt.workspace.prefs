@@ -1,0 +1,10 @@
+StickyFolders///Compound\ Tests=com.ibm.rational.test.lt.scenario
+StickyFolders///Datapools=com.ibm.rational.test.lt.datapool
+StickyFolders///FamilyHistory_Select_any_Histories_DetailsScreen=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///ProcedureHistory_Select_any_Histories_DetailsScreen=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///Results=com.ibm.rational.test.lt.testresult
+StickyFolders///SocialHistory_Select_any_Histories_DetailsScreen=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///SocialHistory_Verify_any_Histories_DetailsScreen=com.ibm.rational.test.lt.workspace.unknown
+StickyFolders///Tests=com.ibm.rational.test.lt.test
+StickyFolders///TobaccoDetails_Update_NotRecorded=com.ibm.rational.test.lt.workspace.unknown
+eclipse.preferences.version=1

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Var_Username_A" value="Milki,Russell"/>
+  <variable_init name="Var_Password_A" value="a"/>
+  <variable_init name="Var_Domain_A" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Patient_MRN_A" value="10002629"/>
+  <variable_init name="Var_Encounter_FIN_A" value="20003323"/>
+  <variable_init name="Var_Diagnosis1" value="Cough at rest"/>
+  <variable_init name="Var_Problem1" value="Grass tetany"/>
+  <variable_init name="Var_Diagnosis2" value="Heat rash"/>
+  <variable_init name="Var_Problem2" value="Cutis laxa of upper eyelid"/>
+  <variable_init name="Var_AnnotatedDisplay" value="Annotated Display"/>
+  <variable_init name="Var_Problem6" value="Jet lag syndrome"/>
+  <variable_init name="Var_Problem4" value="Polyotia"/>
+  <variable_init name="Var_Problem3" value="Bed rest"/>
+  <variable_init name="Var_Problem5" value="Graze"/>
+  <variable_init name="Var_Encounter_Location_A" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_A" value="Yoda, Green"/>
+  <variable_init name="Var_Encounter_FIN_B" value="20003324"/>
+  <variable_init name="Var_Patient_MRN_B" value="10002630"/>
+  <variable_init name="Var_Encounter_Location_B" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_B" value="Yoda, Blue"/>
+  <variable_init name="Var_Encounter_FIN_C" value="20003325"/>
+  <variable_init name="Var_Patient_MRN_C" value="10002631"/>
+  <variable_init name="Var_Encounter_Location_C" value="Baseline East"/>
+  <variable_init name="Var_PatientFullName_C" value="Yoda, Yellow"/>
+  <variable_init name="Var_Username_B" value="Dx,ON"/>
+  <variable_init name="Var_Password_B" value="cerner"/>
+  <variable_init name="Var_DiagnosisA" value="Lung cyst"/>
+  <variable_init name="Var_relationShipType_A" value="PCTAUT CHT LIFETIME PPR1"/>
+  <variable_init name="Var_relationShipType_B" value="PCTAUT CHT LIFETIME PPR1"/>
+  <variable_init name="Var_SelectSpecialty" value="Other"/>
+</inits>

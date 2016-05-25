@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Location" value="Not Initialized"/>
+  <variable_init name="Var_Username_A" value="JW027642"/>
+  <variable_init name="Var_Domain_A" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Password_A" value="asdf"/>
+  <variable_init name="Pin" value="Not Initialized"/>
+  <variable_init name="Specialty" value="Not Initialized"/>
+  <variable_init name="Var_SelectSpecialty" value="Not Initialized"/>
+  <variable_init name="Var_Patient_MRN_A" value="10000540"/>
+  <variable_init name="Var_Encounter_FIN_A" value="20000626"/>
+  <variable_init name="Var_Encounter_Location_A" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_A" value="Encounter, patient1"/>
+  <variable_init name="Var_relationShipType_A" value="Not Initialized"/>
+  <variable_init name="Var_overRideReason_A" value="Not Initialized"/>
+  <variable_init name="Var_relationShipTypeJustification_A" value="Not Initialized"/>
+  <variable_init name="Var_overrideReasonJustification_A" value="Not Initialized"/>
+  <variable_init name="DecisionSupportOverride" value="Not Initialized"/>
+  <variable_init name="Var_ChartReview_Temperature" value="40"/>
+  <variable_init name="Var_ChartReview_Temperature_Units" value="DegC"/>
+  <variable_init name="Var_ChartReview_HeartRate" value="50"/>
+  <variable_init name="Var_ChartReview_HeartRate_Units" value="bpm"/>
+  <variable_init name="Var_ChartReview_RespiratoryRate" value="60"/>
+  <variable_init name="Var_ChartReview_BPSystolic" value="50"/>
+  <variable_init name="Var_ChartReview_BPDiastolic" value="50"/>
+  <variable_init name="Var_ChartReview_Height" value="150"/>
+  <variable_init name="Var_ChartReview_Height_Units" value="cm"/>
+  <variable_init name="Var_ChartReview_Weight" value="60"/>
+  <variable_init name="Var_ChartReview_Weight_Units" value="kg"/>
+  <variable_init name="Var_ChartReview_BMI" value="Not Initialized"/>
+  <variable_init name="Var_ChartReview_BMI_Units" value="Not Initialized"/>
+  <variable_init name="Var_ProfileView_Temperature" value="40"/>
+  <variable_init name="Var_ProfileView_Temperature_Units" value="(34-37.4) DegC"/>
+  <variable_init name="Var_ProfileView_HeartRate" value="50"/>
+  <variable_init name="Var_ProfileView_HeartRate_Units" value="(60-100) bpm"/>
+  <variable_init name="Var_ProfileView_RespiratoryRate" value="60"/>
+  <variable_init name="Var_ProfileView_BPSystolic" value="50"/>
+  <variable_init name="Var_ProfileView_BPDiastolic" value="50"/>
+  <variable_init name="Var_ProfileView_Height_Units" value="cm"/>
+  <variable_init name="Var_ProfileView_Height" value="150"/>
+  <variable_init name="Var_ProfileView_Weight" value="60"/>
+  <variable_init name="Var_ProfileView_Weight_Units" value="(30-100) kg"/>
+  <variable_init name="Var_ProfileView_BMI" value="Not Initialized"/>
+  <variable_init name="Var_ProfileView_BMI_Units" value="Not Initialized"/>
+  <variable_init name="Var_ChartReview_ClickVitals" value="Temperature"/>
+  <variable_init name="Var_DetailsView_SelectedVital" value="Temperature"/>
+  <variable_init name="Var_DetailsView_TodayVitalValue" value="40 DegC"/>
+  <variable_init name="Var_DetailsView_PreviousVitalValue" value="45 DegC"/>
+  <variable_init name="Var_DetailsView_PrevPreviousVitalValue" value="45 DegC"/>
+  <variable_init name="Var_DetailsView_PositionValue" value="2"/>
+  <variable_init name="Var_DetailsView_SectionValue" value="2"/>
+  <variable_init name="Var_ResultDetailsView_SelectedVital" value="Temperature Oral"/>
+  <variable_init name="Var_ResultDetailsView_VitalValue" value="DegC"/>
+  <variable_init name="Var_ResultDetails_Value" value="40"/>
+  <variable_init name="Var_ResultDetails_DateTime" value="4/27/16, 5:53 AM"/>
+  <variable_init name="Var_ResultDetails_NormalValue" value="34-37.4"/>
+  <variable_init name="Var_ResultDetails_CriticalLow" value="33"/>
+  <variable_init name="Var_ResultDetails_CriticalHigh" value="40.5"/>
+  <variable_init name="Var_Patient_MRN_PatB" value="10002598"/>
+  <variable_init name="Var_Encounter_FIN_PatB" value="20003284"/>
+  <variable_init name="Var_Encounter_Location_PatB" value="Baselne East"/>
+  <variable_init name="Var_Patient_FullName_PatB" value="Avinash, Baby test"/>
+  <variable_init name="Var_ChartReview_Temperature_PatB" value="40"/>
+  <variable_init name="Var_ChartReview_Temperature_Units_PatB" value="DegC/>
+  <variable_init name="Var_ChartReview_HeartRate_PatB" value="60"/>
+  <variable_init name="Var_ChartReview_HeartRate_Units_PatB" value="bpm"/>
+  <variable_init name="Var_ChartReview_RespiratoryRate_PatB" value="50"/>
+  <variable_init name="Var_ChartReview_BPSystolic_PatB" value="50"/>
+  <variable_init name="Var_ChartReview_BPDiastolic_PatB" value="50"/>
+  <variable_init name="Var_ChartReview_Height_PatB" value="150"/>
+  <variable_init name="Var_ChartReview_Height_Units_PatB" value="cm"/>
+  <variable_init name="Var_ChartReview_Weight_PatB" value="60,000"/>
+  <variable_init name="Var_ChartReview_Weight_Units_PatB" value="g"/>
+  <variable_init name="Var_ChartReview_BMI_PatB" value="Not Initialized"/>
+  <variable_init name="Var_ChartReview_BMI_Units_PatB" value="Not Initialized"/>
+  <variable_init name="Var_ChartReview_HeadCircumference_PatB" value="--"/>
+  <variable_init name="Var_ChartReview_HeadCircumference_Units_PatB" value="Not Initialized"/>
+</inits>

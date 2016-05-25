@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Var_SelectSpecialty" value="Other"/>
+  <variable_init name="Var_Date/Time" value="1/1/20, 12:00 PM"/>
+  <variable_init name="Var_EncounterType" value="Inpatient"/>
+  <variable_init name="Var_AttendingPhy" value="Hunter, Trill"/>
+  <variable_init name="Var_Location" value="ICU"/>
+  <variable_init name="Var_Room/Bed" value="ICU9/01"/>
+  <variable_init name="Var_ReasonForVisit" value="Future Encounter"/>
+  <variable_init name="Var_PreviousDTM" value="1/18/16, 12:00 PM"/>
+  <variable_init name="Var_PreviousReasonForVisit" value="Present Encounter"/>
+  <variable_init name="Var_PreviousEncounterType" value="Outpatient"/>
+  <variable_init name="Var_PreviousAttendingPhy" value="Pathak, Richa"/>
+  <variable_init name="Var_PreviousLocation" value="Baseline East"/>
+  <variable_init name="Var_FutureCount" value="Future (1)"/>
+  <variable_init name="Var_FutureDTM" value="1/1/20, 12:00 PM"/>
+  <variable_init name="Var_FutureReasonForVisit" value="Future Encounter"/>
+  <variable_init name="Var_FutureEncounterType" value="Inpatient"/>
+  <variable_init name="Var_FutureAttendingPhy" value="Hunter, Trill"/>
+  <variable_init name="Var_PreviousCount" value="Previous (2)"/>
+  <variable_init name="Var_FutureLocation" value="ICU"/>
+  <variable_init name="Var_FutureRoom/Bed" value="ICU9/01"/>
+  <variable_init name="Var_Username_A" value="Milki,Russ"/>
+  <variable_init name="Var_Domain_A" value="stgeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Password_A" value="a"/>
+  <variable_init name="Var_Encounter_Fin_A" value="20005185"/>
+  <variable_init name="Var_Encounter_FIN_A" value="20005185"/>
+  <variable_init name="Var_Patient_MRN_A" value="10003534"/>
+  <variable_init name="Var_Encounter_Location_A" value="Baseline East"/>
+  <variable_init name="Var_PatientFullName_A" value="RTW, VisitListSmokeTest"/>
+  <variable_init name="Var_Patient_FullName_A" value="RTW, VisitListSmokeTest"/>
+</inits>

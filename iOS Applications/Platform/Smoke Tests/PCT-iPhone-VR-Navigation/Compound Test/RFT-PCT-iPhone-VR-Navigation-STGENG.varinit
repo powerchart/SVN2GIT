@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Var_PatientA_MRN" value="1000112233"/>
+  <variable_init name="Var_PatientB_Name" value="PCTAUT, iPhoneNavSmokeB"/>
+  <variable_init name="Var_PatientA_Name" value="PCTAUT, iPhoneNavSmokeA"/>
+  <variable_init name="Var_PatientA_FIN" value="20005321"/>
+  <variable_init name="Var_SettingsDomainName" value="Eng. Staging (Project Go)"/>
+  <variable_init name="Var_UserLastName" value="PCTAUT"/>
+  <variable_init name="Var_UserFirstName" value="IphoneNavSmoke"/>
+  <variable_init name="Var_Password" value="cerner"/>
+  <variable_init name="Var_Domain" value="stgeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Username" value="PCTAUT,IphoneNavSmoke"/>
+</inits>

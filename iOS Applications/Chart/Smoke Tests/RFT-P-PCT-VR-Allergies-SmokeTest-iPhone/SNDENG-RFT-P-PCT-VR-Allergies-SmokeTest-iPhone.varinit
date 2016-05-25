@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="Var_Username_A" value="Wilks,Josh"/>
+  <variable_init name="Var_Domain_A" value="sndeng.temp_rho.cernerasp.com"/>
+  <variable_init name="Var_Password_A" value="asdf"/>
+  <variable_init name="Specialty" value=""/>
+  <variable_init name="Var_SelectSpecialty" value="Other"/>
+  <variable_init name="Var_Patient_MRN_A" value="10000607"/>
+  <variable_init name="Var_Encounter_FIN_A" value="20000695"/>
+  <variable_init name="Var_Encounter_Location_A" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_A" value="Age, TestK"/>
+  <variable_init name="Var_relationShipType_A" value="Not Initialized"/>
+  <variable_init name="Var_overRideReason_A" value="Not Initialized"/>
+  <variable_init name="Var_relationShipTypeJustification_A" value="Not Initialized"/>
+  <variable_init name="Var_overrideReasonJustification_A" value="Not Initialized"/>
+  <variable_init name="DecisionSupportOverride" value="None"/>
+  <variable_init name="Var_Patient_MRN_B" value="10000988"/>
+  <variable_init name="Var_Encounter_FIN_B" value="20002988"/>
+  <variable_init name="Var_Encounter_Location_B" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_B" value="Far, Man"/>
+  <variable_init name="Var_Patient_MRN_C" value="10000827"/>
+  <variable_init name="Var_Encounter_FIN_C" value="20000950"/>
+  <variable_init name="Var_Encounter_Location_C" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_C" value="watson, Shane"/>
+  <variable_init name="Var_Patient_MRN_D" value="10000895"/>
+  <variable_init name="Var_Encounter_FIN_D" value="20001065"/>
+  <variable_init name="Var_Encounter_Location_D" value="Baseline East"/>
+  <variable_init name="Var_Patient_FullName_D" value="VitalView1, Pat1R8"/>
+</inits>

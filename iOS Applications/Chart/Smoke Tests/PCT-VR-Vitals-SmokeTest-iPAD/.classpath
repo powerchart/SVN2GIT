@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" output="bin" path="src">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Applications/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.500.v20160219_1509/libraries/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.500.v20160219_1509/libraries/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/Applications/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.500.v20160219_1509/libraries/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/linux_chromedriver.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/rtwplayback-cfx.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/rtwplayback-linux-jpm.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace5/zippedExtLibs/rtwplayback-windows-jpm.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/linux_chromedriver.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/rtwplayback-cfx.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/rtwplayback-linux-jpm.zip"/>
+	<classpathentry kind="lib" path="/Users/ab030405/IBM/rationalsdp/workspace6/zippedExtLibs/rtwplayback-windows-jpm.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
